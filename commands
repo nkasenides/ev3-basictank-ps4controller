@@ -1,0 +1,18 @@
+Find which device to be used:
+
+cat /proc/bus/input/devices
+
+Find entry with name "Wireless Controller"
+Find its "handler" and enter in the entry on line 40.
+
+
+Button              ev_type         code
+
+Left stick X        3               0           0 Left/127 Middle/255 Right
+Left stick Y        3               1           0 Top/127 Middle/255 Bottom
+Left stick push     4               317         0 Released/1 Pressed
+
+
+Right stick X       3               3
+Right stick Y       3               4
+Right stick push    4               318
